@@ -6,5 +6,6 @@ module.exports = {
             "File an issue": "https://github.com/mozilla/webmaker-app/issues",
             "Download": "https://www.gitbook.com/download/pdf/book/k88hudson/webmaker-mobile-guide"
         }
-    }
+    },
+    "plugins": ["youtube"]
 };

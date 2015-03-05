@@ -8,3 +8,4 @@ npm-*
 config/index.js
 .env
 wma.sublime-workspace
+_book/

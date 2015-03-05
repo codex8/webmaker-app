@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/mozilla/webmaker-app.svg)](https://travis-ci.org/mozilla/webmaker-app)
 [![devDependency Status](https://david-dm.org/mozilla/webmaker-app/dev-status.svg)](https://david-dm.org/mozilla/webmaker-app#info=devDependencies)
 
+
 Last upload on Transifex: **Wed 18 Feb 2015 13:30:35 EST**
 
 This documentation is published at [webmaker-mobile-guide.mofodev.net](http://webmaker-mobile-guide.mofodev.net/_docs/get_started/README.html).
@@ -11,9 +12,10 @@ If you need to view the documentation offline or want to contribute to it, see [
 
 For easier offline reading you can download the documentation in [PDF](https://www.gitbook.com/download/pdf/book/k88hudson/webmaker-mobile-guide), [EPUB](https://www.gitbook.com/download/epub/book/k88hudson/webmaker-mobile-guide), or [MOBI](https://www.gitbook.com/download/mobi/book/k88hudson/webmaker-mobile-guide) format.
 
-
-
 ## Background
+
+{% youtube %}https://www.youtube.com/watch?v=3LkLj8yogzk{% endyoutube %}
+
 Mozilla Webmaker is all about building a new generation of digital creators and webmakers, giving people the tools and skills they need to move from using the Web to actively making the Web. To this end, the Webmaker App is an entry point to the Webmaker community that provides a radically simple interface for creating mobile application directly on device. In conjunction with our ongoing device launches for Firefox OS, our goal is to enable users in developing markets such as Bangladesh, India, and Kenya to engage in the creation and sharing of applications that enrich their lives.
 
 ![Screenshots](https://cloud.githubusercontent.com/assets/747641/3974620/6f9cced4-27f7-11e4-9738-3d3c5296d37e.png)

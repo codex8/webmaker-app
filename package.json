@@ -58,6 +58,7 @@
     "run-sequence": "^1.0.2",
     "tv4": "^1.1.4",
     "watchify": "^2.3.0",
-    "webmaker-download-locales": "0.2.5"
+    "webmaker-download-locales": "0.2.5",
+    "gitbook-plugin-youtube": "^1.1.0"
   }
 }
