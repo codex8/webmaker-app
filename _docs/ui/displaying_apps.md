@@ -4,7 +4,7 @@ Since each app is just a collection of blocks, all that is needed to display an 
 
 ```html
 <ul class="blocks">
-    <li v-component="{{type}}" v-repeat="app.blocks"></li>
+    <li v-component="type" v-repeat="app.blocks"></li>
 </ul>
 ```
 

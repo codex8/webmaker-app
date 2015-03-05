@@ -53,7 +53,7 @@ Let's create our html structure.
 
 ```html
 <select>
-    <option v-on="change: onChange" value="{{choice.value}}" v-repeat="choices">{{ choice.label }}</option>
+    <option v-on="change: onChange" value="&#123;&#123;choice.value&#125;&#125;" v-repeat="choices">&#123;&#123; choice.label &#125;&#125;</option>
 </select>
 ```
 

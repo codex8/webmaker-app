@@ -15,7 +15,7 @@ All strings are stored in json files in the [https://github.com/mozilla/webmaker
 ```js
 {
     "hi username": {
-        "message": "Hi {{username}}!",
+        "message": "Hi &#123;&#123;username&#125;&#125;!",
         "description": "A greeting for the user"
     }
 }
@@ -37,8 +37,8 @@ Here's an example html file that might be included in a view:
 
 To localize it, first we convert all the strings to key-names and apply the `i18n` filter:
 ```html
-<p>{{'Blah blah blah blah' | i18n}}</p>
-<button>{{'Submit' | i18n}}</button>
+<p>&#123;&#123;'Blah blah blah blah' | i18n&#125;&#125;</p>
+<button>&#123;&#123;'Submit' | i18n&#125;&#125;</button>
 ```
 
 Then, we add the strings to [locale/en_US/webmaker-app.json](https://github.com/mozilla/webmaker-app/blob/master/locale/en_US/webmaker-app.json):
@@ -67,4 +67,4 @@ We can see an example of `v-bind-i18n-html` in `views/sign-in/index.html`:
 
 Here the `v-bind-i18n-html` directive will automatically pass the HTML string of "Make and share the web" as the key through the `i18n` filter, which will provide the correct localized content.
 
-Whereas using the `{{ }}` syntax allows you to escape HTML, using `v-bind-i18n-html` doesn't escape HTML.
+Whereas using the `&#123;&#123; &#125;&#125;` syntax allows you to escape HTML, using `v-bind-i18n-html` doesn't escape HTML.
