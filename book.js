@@ -1,6 +1,6 @@
 // This is the configuration for the documentation gitbook
 module.exports = {
-    "version": "2.x.x",
+    "gitbook": "2.x.x",
     "links": {
         "sidebar": {
             "Contribute to these docs": "https://github.com/mozilla/webmaker-app",
